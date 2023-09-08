@@ -14,7 +14,7 @@ const HorarioSchema = {
     type: DataTypes.STRING,
     field: "diaSemana",
   },
-  horaIcinio: {
+  horaInicio: {
     allowNull: false,
     type: DataTypes.TIME,
     field: "horaIcinio",

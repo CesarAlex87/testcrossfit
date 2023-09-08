@@ -2,7 +2,7 @@ const { DataTypes, Model } = require("sequelize");
 
 const STUDENT_TABLE = "student";
 
-const StundetSchema = {
+const StudentSchema = {
   id: {
     type: DataTypes.INTEGER,
     allowNull: false,
@@ -61,4 +61,4 @@ class Student extends Model {
   }
 }
 
-module.exports = { STUDENT_TABLE, StundetSchema, Student };
+module.exports = { STUDENT_TABLE, StudentSchema, Student };
