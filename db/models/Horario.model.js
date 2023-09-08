@@ -17,7 +17,7 @@ const HorarioSchema = {
   horaInicio: {
     allowNull: false,
     type: DataTypes.TIME,
-    field: "horaIcinio",
+    field: "horaInicio",
   },    
   horaFin: {
     allowNull: false,
