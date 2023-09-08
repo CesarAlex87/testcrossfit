@@ -21,6 +21,7 @@ const createUser = async (req, res) => {
 const updateUser = async (req, res) => {
     const { body } = req;
     const { id } = req.params;
+    //usar save en lugar de update
     const rta = await models.User.update(body, { where: { id } });
     res.json(rta);
 };
